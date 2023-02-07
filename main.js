@@ -3,6 +3,7 @@
 const chatbotResponse = {
     "hallo": "Halli hallouuu ;)",
     "was lauft": "küss mich, und spöter laufemer in Sunneuntergang <3",
+    "was machsch": "gueti frag.. Ich bin e scheiss software du idiot!!",
     "Wie alt bist du": "Alt genug, baby ;)!",
     "was kannst du": "Ich kann dir einen ausgeben!",
     "küss mich": "küss min arsch",
