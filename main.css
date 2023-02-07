@@ -3,6 +3,32 @@ body {
   background: rgb(159,52,164);
   background: linear-gradient(0deg, rgba(159,52,164,1) 0%, rgba(95,255,245,1) 100%);
 }
+#header {
+  display: flex;
+  align-items: center;
+  background: rgb(251,255,73);
+  background: linear-gradient(90deg, rgba(251,255,73,1) 0%, rgba(253,145,29,0.7904411764705882) 40%, rgba(255,98,98,0.829656862745098) 66%);
+  width: 60%;
+  margin: 0px auto;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+#name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
 
 h1 {
   text-align: center;
@@ -13,10 +39,11 @@ h1 {
 
 #chatbox {
   width: 60%;
-  margin: 50px auto;
+  margin: 0px auto;
   background: rgb(226,61,103);
   background: linear-gradient(90deg, rgba(226,61,103,1) 0%, rgba(255,107,189,0.7792366946778712) 50%, rgba(198,33,33,0.4010854341736695) 100%);
-  border-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
   padding: 15px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
@@ -87,10 +114,15 @@ button[type="submit"] {
 @media (max-width: 700px) {
   #chatbox {
     width: 83%;
-    margin: 20px 5%;
+    margin: 0px 5%;
   }
 
   body {
     font-size: 14px;
   }
+#header{
+  width: 83%;
+  margin: 0px 5%;
+}
+
 }
