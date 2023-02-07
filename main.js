@@ -9,6 +9,8 @@ const chatbotResponse = {
     "was kannst du mir über Fabian sagen": "Fabian Wirth, mag es Sonntag morgens von seine Alpaka geweckt zu werden.",
     "wo wohnst du": "Mein zuhause ist in deiner nähe ;)",
     "wo wohnt besart": "Naja, komm mitt ich zeigs dir.",
+    "wie heissen seine eltern?": "Lutschbonbon und lakrize. jawohl ich lieb mini eltere",
+    "fick dich":"was laaaaberst duu kollege, probiers numal!",
     "woher ist Fabian": "Ich bin zu 2,4% albanesier.",
     "was sind Fabian's stärken": "Alle du spasst.",
     "was sind fabians schwächen": "keine du opfer... ich mein du hübscher",
@@ -96,7 +98,7 @@ const chatbotResponse = {
     let highestSimilarity = 0;
     for (const [key, value] of Object.entries(chatbotResponse)) {
     const similarityValue = similarity(message, key);
-    if (similarityValue > highestSimilarity && similarityValue >= 0.4) {
+    if (similarityValue > highestSimilarity && similarityValue >= 0.3) {
     closestMatch = value;
     highestSimilarity = similarityValue;
     }
