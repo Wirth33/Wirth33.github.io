@@ -2,6 +2,7 @@
 
 const chatbotResponse = {
     "hallo": "Halli hallouuu ;)",
+    "was lauft": "küss mich, und spöter laufemer in Sunneuntergang <3",
     "Wie alt bist du": "Alt genug, baby ;)!",
     "was kannst du": "Ich kann dir einen ausgeben!",
     "was kannst du mir über Fabian sagen": "Fabian Wirth, mag es Sonntag morgens von seine Alpaka geweckt zu werden.",
