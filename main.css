@@ -1,0 +1,98 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background-color: pink;
+    }
+    
+    h1 {
+    text-align: center;
+    margin-top: 35px;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 40px;
+    }
+    
+    #chatbox {
+    width: 60%;
+    margin: 50px auto;
+    background-color: lightpink;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0 10px 20px rgba(255, 105, 180, 0.5), 0 6px 6px rgba(255, 105, 180, 0.5);
+    }
+    
+    #chatlogs {
+    height: 400px;
+    overflow-y: scroll;
+    padding: 15px;
+    }
+    
+    .chat {
+    margin-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    }
+    
+    .antwort {
+    background-color: lightblue;
+    float: right;
+    border-radius: 20px;
+    color: white;
+    clear: both;
+    font-family: 'Comic Sans MS', cursive;
+    }
+    
+    .frage {
+    background-color: lightgreen;
+    float: left;
+    border-radius: 20px;
+    color: white;
+    clear: both;
+    font-family: 'Comic Sans MS', cursive;
+    }
+    
+    .user {
+    background-color: lightgray;
+    float: left;
+    border-radius: 20px;
+    color: white;
+    clear: both;
+    font-family: 'Comic Sans MS', cursive;
+    }
+    
+    #chatform {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+    }
+    
+    #chatinput {
+    flex-grow: 1;
+    background-color: lightpink;
+    margin-right: 10px;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-family: 'Comic Sans MS', cursive;
+    }
+    
+    button[type="submit"] {
+    padding: 15px 20px;
+    background-color: lightgreen;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Comic Sans MS', cursive;
+    }
+    
+    @media (max-width: 700px) {
+    #chatbox {
+    width: 83%;
+    margin: 20px 5%;
+    }
+    body {
+        font-size: 14px;
+      }
+    }
