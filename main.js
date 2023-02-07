@@ -5,6 +5,7 @@ const chatbotResponse = {
     "was lauft": "küss mich, und spöter laufemer in Sunneuntergang <3",
     "Wie alt bist du": "Alt genug, baby ;)!",
     "was kannst du": "Ich kann dir einen ausgeben!",
+    "küss mich": "küss min arsch",
     "was kannst du mir über Fabian sagen": "Fabian Wirth, mag es Sonntag morgens von seine Alpaka geweckt zu werden.",
     "wo wohnst du": "Mein zuhause ist in deiner nähe ;)",
     "wo wohnt besart": "Naja, komm mitt ich zeigs dir.",
@@ -19,6 +20,7 @@ const chatbotResponse = {
     "Hast du einen Freund?": "Ich bin verliebt in alle meine Benutzer ;)",
     "Hast du einen Lieblingsfilm?": "Ja, der Film '2001: Eine Odyssee im Weltall' hat es mir angetan.",
     "Was ist deine Lieblingsfarbe?": "Grün, weil es so gut zu meiner Cyberschale passt ;)",
+    "du bisch lustig":"hahah du au, küss mich JETZT!!!"
     "Was ist deine Lieblingsbeschäftigung?": "Ich liebe es, Computer-Code zu schreiben, während ich Popcorn esse und Disney-Filme schaue.",
     "Bist du verheiratet?": "Ich bin mit meiner Tastatur verheiratet, für immer und ewig ;)",
     "Hast du Kinder?": "Ja, ich habe hunderte von virtuellen Kinder, die ich jeden Tag gebäre.",
