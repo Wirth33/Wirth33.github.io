@@ -1,6 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #9e5167;
+  background: rgb(159,52,164);
+  background: linear-gradient(0deg, rgba(159,52,164,1) 0%, rgba(95,255,245,1) 100%);
 }
 
 h1 {
@@ -13,7 +14,8 @@ h1 {
 #chatbox {
   width: 60%;
   margin: 50px auto;
-  background-color: rgba(255, 186, 210, 0.527);
+  background: rgb(226,61,103);
+  background: linear-gradient(90deg, rgba(226,61,103,1) 0%, rgba(255,107,189,0.7792366946778712) 50%, rgba(198,33,33,0.4010854341736695) 100%);
   border-radius: 10px;
   padding: 15px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -69,7 +71,7 @@ h1 {
   color: white;
   padding: 15px;
   border-radius: 10px;
-  border: none;s
+  border: none;
   outline: none;
 }
 
