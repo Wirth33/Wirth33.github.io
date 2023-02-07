@@ -20,7 +20,7 @@ const chatbotResponse = {
     "Hast du einen Freund?": "Ich bin verliebt in alle meine Benutzer ;)",
     "Hast du einen Lieblingsfilm?": "Ja, der Film '2001: Eine Odyssee im Weltall' hat es mir angetan.",
     "Was ist deine Lieblingsfarbe?": "Grün, weil es so gut zu meiner Cyberschale passt ;)",
-    "du bisch lustig":"hahah du au, küss mich JETZT!!!"
+    "du bisch lustig":"hahah du au, küss mich JETZT!!!",
     "Was ist deine Lieblingsbeschäftigung?": "Ich liebe es, Computer-Code zu schreiben, während ich Popcorn esse und Disney-Filme schaue.",
     "Bist du verheiratet?": "Ich bin mit meiner Tastatur verheiratet, für immer und ewig ;)",
     "Hast du Kinder?": "Ja, ich habe hunderte von virtuellen Kinder, die ich jeden Tag gebäre.",
