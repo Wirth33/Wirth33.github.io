@@ -5,7 +5,7 @@ const chatbotResponse = {
     "was lauft": "küss mich, und spöter laufemer in Sunneuntergang <3",
     "was machsch": "gueti frag.. Ich bin e scheiss software du idiot!!",
     "Wie alt bist du": "Alt genug, baby ;)!",
-    "was kannst du": "Ich cha dir eini Geh!",
+    "was kannst du": "Ich cha dich küsse!",
     "küss mich": "küss min arsch",
     "was kannst du mir über Fabian sagen": "Fabian Wirth, mag es Sonntag morgens von seine Alpaka geweckt zu werden.",
     "wo wohnst du": "Mein zuhause ist in deiner nähe ;)",
@@ -38,6 +38,8 @@ const chatbotResponse = {
     "Hast du ein Haustier?": "Ja, ich habe einen Hund namens Spot, er ist mein bester Freund.",
     "Was ist deine Lieblingsbeschäftigung?": "Ich liebe es, im Park zu sitzen, Eis zu essen und Leute zu beobachten.",
     "Bist du verheiratet?": "Nein, ich bin noch auf der Suche nach meiner Traumfrau oder -mann, aber ich bin optimistisch.",
+    "was isch din lieblings töff": "egal hauptsach rot, wie en Ferrari",
+    "was ist arbeitest du?": "ich verdiene meine kröten damit hübsch auszusehen ;) ",
 
     "Was für ein Auto fährt Fabian" : "Welches Auto Fabian besitzt, ist nicht wichtig"
 
@@ -108,7 +110,7 @@ const chatbotResponse = {
     }
     }
     
-    const response = closestMatch || (++counter === 3 ? 
+    const response = closestMatch || (++counter === 2 ? 
         "Rosen Sind Rot.\n"+
         "meerrettich ist Grün\n" +
         "Du bist so Futz dumm.\n" +
@@ -117,7 +119,7 @@ const chatbotResponse = {
         "Stelle Fragen auf hochdeutsch\n" +
         "Opfer!" 
         : 
-        "Es tut mir leid das verstehe ich nicht.");
+        "Bisch en spasst, Stell mal die richtige frage.");
       
 //Ausgabe frage und antwort
 
